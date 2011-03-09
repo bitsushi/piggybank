@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   # s.rubyforge_project = "piggybank"
   
   s.add_dependency "nokogiri",  ">= 1.4.1"
-  s.add_dependency "money",     ">= 3.5.4"
+  s.add_dependency "money",     ">= 3.5.5"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'nokogiri'
+gem 'money', '>= 3.5.5'
 require 'money'
 
 class PiggyBank < Money::Bank::VariableExchange
